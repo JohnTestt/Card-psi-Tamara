@@ -1,0 +1,109 @@
+body {
+        background-color: #fffafa; 
+        background-image: url(img/img3.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+    }
+    
+    .container {
+     max-width: 360px;
+     min-height: 580px;
+     max-height: 880px;
+     margin: 0 auto;
+     border: solid rgb(224, 35, 10) 3px;
+     border-radius: 10px;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: #f8cece5e ;    
+     font-family: 'Source Sans Pro', sans-serif;
+     margin-top: 25px;
+     
+     
+    }
+   
+    .principal img {
+        width: 180px; 
+        height: 180px;
+        opacity: 0.8; 
+        border-radius: 100px;
+       border: solid rgb(224, 35, 10) 3px;
+        margin-top: 10px;  
+    }
+
+    h1{
+        font-family: 'Ephesis', cursive;
+        font-size: 40px;
+        margin-top: 1px;
+        opacity: 1;   
+    }    
+
+    .frase p{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: bolder; 
+        font-style: italic;
+        font-size: 14px;
+        margin-top: 32px;
+        color: black;
+    }
+    
+    
+    footer {
+        
+        margin-top: 32px;
+        font-size: 12px;
+        
+    }
+
+    /* o botao e-mail ficou totalmentte desconfigurado dos outros. motivo = inexplicável */
+    
+    .botao, .botao1 {
+        width: 220px;
+        height: 45px;
+       border-radius: 6px;
+        margin-top: 8px;
+        align-items: center;
+        background-image: linear-gradient(114deg,  rgba(235, 83, 83, 0.808),  rgba(235, 128, 128, 0.808));
+       
+        
+    } 
+    
+    .botao a {
+        text-decoration: none;
+        font-size: 18px;
+        color: rgb(252, 249, 251);
+          
+    }
+    .botao1 a {
+        text-decoration: none;
+        font-size: 18px;
+        color: rgb(252, 249, 251);
+        margin-right: 25px;
+        
+    }
+
+    /* efeito botão */
+    
+    .botao:hover, .botao1:hover {  
+        transform: scale(1.08);
+    }
+
+    .botao i{
+        padding: 5px;
+        color: rgb(235, 14, 25);
+        font-size: 30px;
+       
+    }
+
+    .botao1 i {
+        color: rgb(235, 14, 25);
+        font-size: 30px;
+       padding-right: 35px;
+       width: 10px;
+       padding-top: 5px;
+    }
+    
+    
+    
